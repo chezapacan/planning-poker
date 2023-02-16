@@ -1,0 +1,16 @@
+@import '../../../assets/styles/vars.css';
+
+.text {
+  font-size: 20px;
+  color: var(--color-text);
+  margin: 0px;
+}
+
+.large {
+  font-size: 37px;
+}
+
+.link {
+  color: var(--color-teal-ligth);
+  cursor: pointer;
+}

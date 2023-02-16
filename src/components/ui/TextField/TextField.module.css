@@ -1,0 +1,26 @@
+@import '../../../assets/styles/vars.css';
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 12px;
+  border: 2px solid var(--color-ligth);
+  outline: none;
+  background-color: transparent;
+  color: var(--color-text);
+}
+.input:focus {
+  border: 2px solid var(--color-teal);
+}
+.input::placeholder {
+  color: var(--color-ligth);
+}
+.label {
+  font-size: 20px;
+  color: var(--color-ligth-2);
+  margin: 2px;
+}
+.full {
+  width: 100%;
+}

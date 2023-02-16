@@ -1,0 +1,13 @@
+.gamePanel {
+  max-width: 400px;
+}
+.player {
+  display: flex;
+  justify-content: space-between;
+}
+.playerList {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

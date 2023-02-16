@@ -1,0 +1,15 @@
+@import '../../../assets/styles/vars.css';
+
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--color-primary);
+  padding: 30px 30px;
+}
+
+.center {
+  align-items: center;
+}

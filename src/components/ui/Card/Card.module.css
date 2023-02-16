@@ -1,0 +1,28 @@
+@import '../../../assets/styles/vars.css';
+
+.card {
+  display: flex;
+  height: 180px;
+  width: 130px;
+  background-color: var(--color-primary);
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 57px;
+  user-select: none;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  /* backface-visibility: hidden; */
+}
+.card:hover {
+  background-color: var(--color-ligth);
+}
+.active {
+  background-color: var(--color-teal);
+}
+.active:hover {
+  background-color: var(--color-teal);
+}
+/* .card:active {
+  transform: rotateY(180deg);
+} */

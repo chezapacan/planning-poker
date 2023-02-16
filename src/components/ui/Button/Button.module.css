@@ -1,0 +1,19 @@
+@import '../../../assets/styles/vars.css';
+
+.button {
+  background-color: var(--color-teal);
+  font-size: 20px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+}
+.button:hover {
+  background-color: var(--color-teal-ligth);
+}
+.button:active {
+  background-color: var(--color-teal);
+}
+.full {
+  width: 100%;
+}
