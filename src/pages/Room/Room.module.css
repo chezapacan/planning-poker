@@ -1,0 +1,19 @@
+.room {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 710px;
+  gap: 30px;
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}

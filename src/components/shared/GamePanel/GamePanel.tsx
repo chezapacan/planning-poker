@@ -15,7 +15,7 @@ type Props = {
 };
 
 export const GamePanel = ({ playersInfo }: Props) => {
-  const players = playersInfo.map((e, index) => (
+  const playerItems = playersInfo.map((e, index) => (
     <>
       <div className={styles.player}>
         <Text text={e.owner ? '👑 ' + e.name : e.name} />
@@ -33,7 +33,7 @@ export const GamePanel = ({ playersInfo }: Props) => {
 
         <div className={styles.playerList}>
           <Text text='PLAYERS' />
-          {players}
+          {playerItems}
         </div>
         <Text text='Copy invite link' link />
       </Box>
