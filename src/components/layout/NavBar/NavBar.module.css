@@ -3,7 +3,7 @@
 .wrapper {
   width: 100%;
   background-color: var(--color-primary);
-  height: 64px;
+  height: 56px;
   margin-bottom: 30px;
 }
 .content {
