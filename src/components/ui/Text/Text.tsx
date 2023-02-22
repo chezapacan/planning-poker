@@ -4,9 +4,10 @@ type Props = {
   text: string;
   large?: boolean;
   link?: boolean;
+  onClick?: React.MouseEventHandler<HTMLElement>;
 };
 
-export const Text = ({ text, large, link }: Props) => {
+export const Text = ({ text, large, link, onClick }: Props) => {
   return (
     <p
       className={`
@@ -14,6 +15,7 @@ export const Text = ({ text, large, link }: Props) => {
         ${large ? styles.large : null} 
         ${link ? styles.link : null}
       `}
+      onClick={onClick}
     >
       {text}
     </p>

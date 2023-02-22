@@ -31,13 +31,7 @@ export const Room = ({}: Props) => {
           />
           <StoryPanel storyInfo={['Story1', 'Story2', 'Story3']} />
         </div>
-        <GamePanel
-          playersInfo={[
-            { name: 'player1', status: true, owner: true },
-            { name: 'player2', status: false, owner: false },
-            { name: 'player3', status: true, owner: false },
-          ]}
-        />
+        <GamePanel />
       </div>
     </div>
   );
